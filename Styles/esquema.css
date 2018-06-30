@@ -1,0 +1,55 @@
+header{
+   width: 100%;
+ }
+
+ #logo{
+   float: left;
+   width: 10%;
+   height: 15%;
+ }
+ #titulo{
+   float: left;
+   text-align: center;
+   width: 33%;
+   height: 15%;
+ }
+ #Likedin{
+   float: right;
+   width: 10%;
+   height: 15%;
+ }
+ #contenedor{
+   display: flex;
+   width: 33%;
+   height: 15%;
+ }
+
+ nav{
+     padding-left: 5px;
+     padding-right: 15px;
+ }
+ body{
+     padding-top: 10px;
+     padding-left: 3%;
+     padding-right: 3%;
+     padding-bottom: 3%;
+ }
+ ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+li {
+    float: left;
+    margin-left: 15px;
+}
+article{
+  margin: 5px;
+  background-color: rgb(200,150,150);
+}
+.footer{
+  border: 10px solid black;
+  padding-bottom: 3%;
+}
